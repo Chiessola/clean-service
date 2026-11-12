@@ -1,0 +1,25 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Administration – Clean & Services</title>
+<style>
+:root{--g:#0a4d2e;--l:#39ff14;--y:#ffc400;--bg:#f6faf7;--t:#10261b}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--t)}
+header{background:var(--g);color:#fff;display:flex;align-items:center;gap:12px;padding:8px 16px;position:sticky;top:0;z-index:5;flex-wrap:wrap}
+header img{height:46px;border-radius:8px;background:#fff}header b{font-size:1.1rem}header nav{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+a{color:inherit}.btn{background:var(--y);color:#222;border:0;border-radius:10px;padding:10px 16px;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}
+.btn.g{background:var(--g);color:#fff}.btn.l{background:var(--l);color:var(--g)}.btn.s{padding:6px 10px;font-size:.85rem}
+main{max-width:1050px;margin:auto;padding:16px}.hero{background:linear-gradient(135deg,var(--g),#087a3f);color:#fff;border-radius:18px;padding:36px 22px;text-align:center}
+.hero h1{margin:0 0 8px;font-size:clamp(1.6rem,5vw,2.6rem)}.hero em{color:var(--l);font-style:normal}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin:18px 0}
+.card{background:#fff;border-radius:14px;padding:16px;box-shadow:0 2px 8px #0001;border-top:5px solid var(--l)}
+.price{font-size:1.8rem;font-weight:800;color:var(--g)}.badge{background:var(--y);border-radius:20px;padding:2px 10px;font-size:.8rem;font-weight:700}
+input,select,textarea{width:100%;padding:10px;margin:4px 0 10px;border:1px solid #bcd;border-radius:8px;font:inherit}
+label{font-size:.9rem;font-weight:600}.steps{display:flex;gap:6px;margin-bottom:12px}.steps span{flex:1;text-align:center;padding:6px;border-radius:8px;background:#dde;font-size:.8rem}.steps .on{background:var(--g);color:#fff}
+.days{display:flex;flex-wrap:wrap;gap:8px}.days label{border:2px solid var(--g);border-radius:20px;padding:6px 12px;cursor:pointer}.days input{display:none}.days input:checked+span{font-weight:800}.days label.sel{background:var(--l)}
+.sel-plan{outline:3px solid var(--y)}table{width:100%;border-collapse:collapse;background:#fff;font-size:.9rem}th,td{padding:8px;border-bottom:1px solid #e3e8e5;text-align:left}th{background:var(--g);color:#fff}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}.tabs button{flex:1}.box{overflow-x:auto}.bar{background:var(--l);height:22px;border-radius:6px;color:var(--g);font-weight:700;padding-left:6px;white-space:nowrap}
+.warn{background:#fff7d6;border-left:5px solid var(--y);padding:10px;border-radius:8px}footer{text-align:center;padding:20px;color:#456}
+@media print{header,.tabs,.noprint,footer{display:none}}
+</style></head><body>
+<header><img src="logo.jpeg" alt="logo"><b>Clean & Services – Administration</b><nav id="nav"></nav></header>
+<main id="app">Chargement…</main><footer>© Clean & Services – Propreté – Hygiène – Tranquillité – Tél : 692 636 419</footer>
+<script src="config.js"></script><script src="demo.js"></script><script src="common.js"></script><script src="admin.js"></script></body></html>
