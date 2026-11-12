@@ -1,5 +1,5 @@
 // ⚙️ CONFIG : remplacez par les valeurs de Supabase > Project Settings > API
-const SUPABASE_URL='https://VOTRE-PROJET.supabase.co', SUPABASE_KEY='VOTRE_CLE_ANON';
+const SUPABASE_URL='https://lmymhhesgafxrtxckbry.supabase.co', SUPABASE_KEY='sb_secret_urfoBnk2UnzmCltXysgrYQ_8Rj1AJFP';
 const PAY_NUM='692 636 419', sb=supabase.createClient(SUPABASE_URL,SUPABASE_KEY);
 const $=s=>document.querySelector(s), app=$('#app'), JOURS=['Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi','Dimanche'];
 const fc=n=>Number(n||0).toLocaleString('fr-FR')+' FCFA', fd=d=>d?new Date(d).toLocaleDateString('fr-FR'):'-';
